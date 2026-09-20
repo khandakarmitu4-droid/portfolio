@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Mitu - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Mitu</h1>
         <nav>
+            <h1>Mitu</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
@@ -20,24 +20,18 @@
     </header>
 
     <main>
-        <section>
-            <img src="profile.jpg.jpg" alt="Profile Picture" style="max-width: 200px; width: 200px; width: 100%;height: auto; border-radius: 10px; display; block; margin: 0 auto 15px auto;">
+        <section id="hero">
+            <img src="profile.jpg.jpg" alt="Profile Picture" style="width: 180px; height: 180px; object-fit: cover;">
             <h2>Welcome to My Portfolio</h2>
             <p>Hi! I am an IT student passionate about web development and technology. Welcome to my personal site where I showcase my journey, projects, and skills.</p>
         </section>
 
-        <section>
+        <section id="contact">
             <h2>Contact Me</h2>
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your Name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Your Email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
-
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </section>
@@ -45,12 +39,10 @@
 
     <footer>
         <p>Connect with me:</p>
-        <p>
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com" target="_blank">GitHub</a> | 
-            <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
-            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
-        </p>
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">TikTok</a>
     </footer>
 
 </body>
